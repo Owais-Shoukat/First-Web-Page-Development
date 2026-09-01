@@ -1,0 +1,265 @@
+@font-face {
+    font-family:"MYFont";
+    src: url(./HARRYP.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Backgorund\ image.png);
+    background-position:center;
+    background-size:cover;
+    height: 109vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 50px;
+  /*   margin: auto; */
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:#ff7200;
+    font-size: 45px;
+    font-family: "MYFont";
+    padding-left: 20px;
+    padding-top: 10px;
+}                      
+.menu{
+    float: left;
+    width: 400px;
+    height: 70px;
+}       
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                                                                                       
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    transition: 0.4s ease-in-out ;
+    font-weight:bold ;
+}
+ul li a:hover{
+    color: rgb(242, 160, 46)
+}
+.search{
+    width:330px;
+    float: left;
+    margin-top: 13px;
+    margin-left:270px;
+}
+.srch{
+    font-family:'Times New Roman';
+    width: 230px;
+    height: 40px;
+    background: transparent;
+    margin-top: 0;
+    border: 1px solid #ff7200;
+    color: #fff ;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+
+}
+.btn{
+    width:100px ;
+    height:40px ;
+    background:#ff7200 ;
+    border:2px solid #ff7200 ;
+    margin-top:0;
+    color:#fff ;
+    font-size:15px ;
+    border-top-right-radius:5px ;
+    border-top-right-radius:5px ;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    margin-top: 55px;
+    width: 800px;
+    height: auto;
+    margin-left:30px ;
+    color: #fff;
+}
+.content h1{
+    width: 300px;
+    font-size: 40px;
+    transition: .8s ease-in-out;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.content h1:hover{
+    color: rgb(242, 160, 46);
+    cursor: pointer;
+    
+}
+.ampersand{
+    padding: 90px;
+}
+.course{
+    padding-left: 50px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size:20px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-family:'Times New Roman'
+    
+    
+}
+.content .cn{
+    background-color: #fff;
+    width: 100px;
+    height:38px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+
+}
+.content .cn a{
+    text-decoration: none;
+}
+.content .cn:hover{
+    background-color: #ff7200;
+    
+
+}
+
+.btn:active{
+    color: crimson;
+}
+.Form{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 80px;
+    left:900px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px
+}
+.ema{
+    margin-top: 8px;
+    background:transparent;
+    color: #fff;
+     height: 35px;
+     width: 240px;
+     margin-bottom:5px;
+     border-bottom:1px solid #ff7200;
+     border-top:none;
+     border-left: none;
+     border-right: none;
+     
+}
+.pwd{
+    margin-top: 2px;
+    background:transparent;
+    height: 35px;
+    color: #fff;
+    width: 240px;
+     border-bottom:1px solid #ff7200;
+     border-top:none;
+     border-left: none;
+     border-right: none;
+}
+
+.Login-btn{
+    width:240px;
+    height:45px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    border:none;
+    font-size:20px;
+    transition: .6s ease-in-out
+}
+.Login-btn a{
+    text-decoration: none;
+}
+.Login-btn:hover{
+    background-color: #ff7200;
+}
+.Form h2{
+    margin-left:60px;
+    margin-bottom:11px;
+    transition: .9s ease-in-out
+}
+.Form h2:hover{
+    color: #ff7200;
+    cursor:default
+}
+::placeholder{
+    color:#fff;
+}
+.Link{
+
+    margin-top:14px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+
+}
+.Link a{
+    display: block;
+    color: #ff7200;
+    text-decoration: none;
+    text-align: center;
+    margin-top:7px;
+
+}
+.Link a:active{
+    color: red
+}
+.liw{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .4s ease-in-out;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+
+}
